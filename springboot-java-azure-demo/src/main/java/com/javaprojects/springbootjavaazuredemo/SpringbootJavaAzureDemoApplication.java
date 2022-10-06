@@ -11,7 +11,7 @@ public class SpringbootJavaAzureDemoApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats!! your application is deployed in Azure Platfrom";
+		return "Congrats!! your application is deployed in Azure Platfrom!!";
 	}
 
 	public static void main(String[] args) {
